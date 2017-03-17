@@ -1,0 +1,14 @@
+{
+    "name": "budget0/ddd",
+    "description": "DDD in Budget0",
+    "type": "project",
+    "require": {
+        "behat/behat": "3.3.*@stable"
+    },
+    "authors": [
+        {
+            "name": "Dawid Majewski",
+            "email": "hevellius@gmail.com"
+        }
+    ]
+}
