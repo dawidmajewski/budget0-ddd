@@ -3,7 +3,16 @@
     "description": "DDD in Budget0",
     "type": "project",
     "require": {
-        "behat/behat": "3.3.*@stable"
+        "behat/behat": "3.3.*@stable",
+        "phpspec/phpspec": "~3.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
     },
     "authors": [
         {
